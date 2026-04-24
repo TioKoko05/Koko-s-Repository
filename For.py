@@ -14,7 +14,7 @@
 notas=int(input("Ingrese un el total de pruebas que tiene: "))
 suma=0
 for i in range(notas):
-    n=float(input(f"ingrese su {i}° nota: "))
+    n=float(input(f"ingrese su {i+1}° nota: "))
     suma=suma+n
 prom=suma/notas
-print(f"El promedio de sus notas es: round{notas/num}")
+print(f"El promedio de sus notas es: {round(prom)}")
