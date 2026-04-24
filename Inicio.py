@@ -4,7 +4,7 @@ titulo="Clima actual" #tipo string
 temp=18.6 #float
 diaDelMes=16 #int
 mes=4 #int
-llueve=True
+llueve=False
 
 print(f"{titulo}")
 print(f"Fecha de hoy: {diaDelMes}/{mes}")
